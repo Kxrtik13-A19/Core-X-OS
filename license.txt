@@ -1,0 +1,41 @@
+========================================================================
+                      COREX OS - PROPRIETARY LICENSE
+========================================================================
+ Copyright (c) 2026 Kartik Kumar
+ Location: Andover, MA, United States
+ All Rights Reserved.
+
+ This software, CoreX OS, and its associated documentation (the "Software") 
+ are the exclusive, proprietary property of Kartik Kumar. Built from the 
+ ground up, this project is closed-source and strictly protected.
+
+ By accessing, viewing, or downloading this Software, you are bound by 
+ the following absolute restrictions:
+
+ [ ∅ ] NO DISTRIBUTION
+       You may not copy, reproduce, host, or distribute this Software, 
+       in part or in whole, across any medium.
+
+ [ ∅ ] NO MODIFICATION
+       You may not adapt, tweak, translate, or create derivative works 
+       based on this code. 
+
+ [ ∅ ] NO REVERSE ENGINEERING
+       Decompiling, disassembling, or attempting to extract the underlying 
+       source code or logic is strictly prohibited.
+
+ [ ∅ ] NO UNAUTHORIZED USE
+       You may not run, deploy, sub-license, rent, lease, or monetize 
+       this Software for commercial or non-commercial purposes without 
+       prior written, explicit permission from the copyright holder.
+
+ DISCLAIMER:
+ THE SOFTWARE IS PROVIDED "AS IS" AND WITHOUT WARRANTIES OF ANY KIND, 
+ EXPRESS OR IMPLIED. UNDER NO CIRCUMSTANCES SHALL THE CREATOR BE HELD 
+ LIABLE FOR ANY CLAIM, DAMAGES, SYSTEM FAILURE, OR OTHER LIABILITY 
+ ARISING FROM THE USE, MISUSE, OR INABILITY TO USE THIS SOFTWARE.
+
+========================================================================
+ For permissions, licensing inquiries, or collaborations, you must 
+ obtain explicit written consent from the copyright holder directly.
+========================================================================
