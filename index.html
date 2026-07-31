@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoreX OS - Live Demo</title>
+    <style>
+        body {
+            background-color: #111;
+            color: #fff;
+            font-family: monospace;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        #screen_container {
+            width: 800px;
+            height: 600px;
+            border: 2px solid #555;
+            box-shadow: 0 0 20px rgba(0, 85, 170, 0.5);
+            background-color: #000;
+        }
+    </style>
+    <!-- Load the v86 Emulator -->
+    <script src="libv86.js"></script>
+</head>
+<body>
+
+    <h1>CoreX OS - Web Emulator</h1>
+    <p>Password: kartik130124</p>
+    
+    <!-- This div is where the OS will render -->
+    <div id="screen_container">
+        <div style="white-space: pre; font: 14px monospace; line-height: 14px"></div>
+        <canvas style="display: none"></canvas>
+    </div>
+
+    <script>
+        window.onload = function() {
+            var emulator = new V86({  // <-- This is the only line that changed
+                wasm_path: "v86.wasm",
+                memory_size: 256 * 1024 * 1024,
+                vga_memory_size: 8 * 1024 * 1024,
+                screen_container: document.getElementById("screen_container"),
+                bios: {
+                    url: "seabios.bin", 
+                },
+                vga_bios: {
+                    url: "vgabios.bin", 
+                },
+                cdrom: {
+                    url: "corex.iso",
+                },
+                autostart: true,
+            });
+        };
+    </script>
+</body>
+</html>
